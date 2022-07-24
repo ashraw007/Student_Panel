@@ -1,0 +1,9 @@
+.root {
+  flex: 1;
+  margin: 2%;
+}
+
+.display {
+    justify-content: space-evenly;
+    border-radius: 25px; 
+}

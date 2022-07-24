@@ -1,0 +1,23 @@
+.F0F {
+  margin: 3%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+  font-family: "Inconsolata", monospace;
+}
+
+.F0F > * {
+  margin: 2%;
+}
+
+.Button {
+  background-color: crimson;
+  color: white;
+  padding: 2%;
+}
+
+.Button:hover {
+  background-color: #1c1427;
+}

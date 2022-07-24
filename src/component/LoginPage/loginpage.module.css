@@ -1,0 +1,8 @@
+.Login {
+  padding: 3vw 2vw;
+}
+
+.Login > * {
+  display: flex;
+  justify-content: center;
+}

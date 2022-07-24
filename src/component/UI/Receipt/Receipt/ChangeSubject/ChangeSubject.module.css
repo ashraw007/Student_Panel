@@ -1,0 +1,43 @@
+.Modal {
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+.Subjects {
+  margin: 2%;
+}
+
+.Subjects > * {
+  margin: 1% 0%;
+}
+
+.Buttons {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.Button {
+  margin: 0.5% 0% !important;
+  background-color: #f50057 !important;
+  color: white !important;
+}
+
+.Button:hover {
+  background-color: white !important;
+  border: 2px black solid !important;
+  color: #f50057 !important;
+}
+
+@media only screen and (max-width: 500px) {
+  .Button {
+    margin: 2% 0%;
+    background-color: #f50057;
+    color: white;
+  }
+}

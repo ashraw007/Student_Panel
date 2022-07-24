@@ -1,0 +1,46 @@
+.Footer {
+  z-index: 10;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  min-width: 250px;
+  background-color: #303f9f !important;
+  color: white;
+}
+
+.FooterLayout {
+  display: flex;
+  width: 100%;
+  padding: 0 1%;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.MadeBy {
+  display: flex;
+  flex-wrap: wrap;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0 5%;
+}
+
+@media only screen and (max-width: 600px) {
+  .Footer {
+    padding: 10px 0;
+  }
+}
+
+.Links {
+  text-decoration: none;
+  color: white;
+}
+
+.Names {
+  text-decoration: underline;
+  color: wheat;
+  font-weight: bolder;
+}

@@ -1,0 +1,17 @@
+.Avatar {
+    color: black;
+    background-color: black;
+}
+
+.Name{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 6%;
+    align-content: center;
+}
+
+h3{
+    margin: 0px;
+}
